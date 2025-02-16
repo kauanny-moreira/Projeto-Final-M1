@@ -1,8 +1,6 @@
 .total{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 .divone{
@@ -22,6 +20,7 @@
     7px 7px 10px rgba(0, 0, 0, 0.15);
     border-radius: 5%;
     transition: transform 0.3s ease;
+    text-align: center;
    
 }
 
