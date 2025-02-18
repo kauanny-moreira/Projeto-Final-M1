@@ -1,6 +1,7 @@
-.total{
+#produtos{
     display: flex;
     flex-direction: row;
+    /* overflow: scroll; */
 }
 
 .divone{
@@ -37,6 +38,12 @@
 
 }
 
+.nomeproduto{
+    color: red;
+}
+
+
+
 .divphoto{
     width: 250px;
     height: 220px;
@@ -55,7 +62,14 @@
 .descricao-preco{
    margin: 4px;
    font-size: 15px;
+   color: red;
 }
+
+.descricao{
+    margin: 4px;
+    font-size: 15px;
+ }
+ 
 
 
 #botao{
@@ -108,9 +122,25 @@ body{
     .card:hover{
         transform: translateX(10px);
         box-shadow: 0 8px 16px yellow, 0 4px 8px rgba(255, 255, 255, 0.1);}
-           
+        .nomeproduto{
+            color: rgb(255, 255, 255);
+        }
+        .descricao-preco{
+            margin: 4px;
+            font-size: 15px;
+            color: yellow;
+         }
 }
 
 li{
    list-style: none;
 }
+
+/* RESPONSIVIDADE */
+/* @media (max-width: 950px),(max-heigth:500px) {
+    .card {
+      flex-direction: row;
+      height: 410px;
+      width: 250px;
+    }
+  } */
