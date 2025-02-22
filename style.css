@@ -1,7 +1,7 @@
 #produtos{
     display: flex;
     flex-direction: row;
-    /* overflow: scroll; */
+    /* flex-wrap: wrap; */
 }
 
 .divone{
@@ -13,8 +13,8 @@
 }
 
 .card{
-    height: 410px;
-    width: 250px;
+    height: 395px;
+    width: 240px;
     margin: 20px;
     margin-top: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 
