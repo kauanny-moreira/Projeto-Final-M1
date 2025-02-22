@@ -137,10 +137,34 @@ li{
 }
 
 /* RESPONSIVIDADE */
-/* @media (max-width: 950px),(max-heigth:500px) {
-    .card {
-      flex-direction: row;
-      height: 410px;
-      width: 250px;
+
+@media (max-width: 770px) {
+    
+    #produtos{
+        flex-wrap: wrap;
     }
-  } */
+    
+    .titulo{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    #produtos {
+       flex-wrap: wrap;
+    }
+
+       .titulo{
+        font-size: 25px;
+
+      .card{
+        width: 130px;
+        height: 200px;
+      }
+       
+    }}

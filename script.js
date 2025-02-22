@@ -6,15 +6,6 @@ botaoht.addEventListener("click", function(){
 })
 
 
-
-// if (document.body.classList.contains("modoescuro")) {
-//         botao.textContent = "Modo Claro ☀️";
-// } 
-// else {
-//         botao.textContent = "Modo Escuro 🌙";
-//       }
-// ;
-
 var listaProdutos = [
       { img: "hamburguer1.png", titulo: "Marquês de Beef", descricao: "Carne bovina envolvida em massa folhada, acompanhada de molho madeira e purê de batata.", preco: "Preço: R$40,00" },
       { img: "hamburguer2.png", titulo: "Nova York Classic", descricao: " Clássico americano com queijo cheddar, bacon crocante e cebola caramelizada em pão brioche.", preco: "Preço: R$50,00" },
@@ -42,4 +33,4 @@ var listaProdutos = [
 
 
   let nome = prompt("Qual é o seu nome?");
-alert("Seja bem vindo(a) ao Big Bite, " + nome + "!");
+alert("Seja bem vindo(a) ao 'Big Bite', " + nome + "!");
