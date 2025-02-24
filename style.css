@@ -1,7 +1,7 @@
 #produtos{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .divone{
@@ -168,3 +168,13 @@ li{
       }
        
     }}
+
+
+   /* Botão p o carrinho que a Nyvea fez */
+    /* .botao-estilo{
+        background-color: #17cc53;
+        color: aliceblue;
+        border-radius: 15px;
+        width: 120px;
+        height: 40px;
+    } */
