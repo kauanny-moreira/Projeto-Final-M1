@@ -34,6 +34,9 @@ font-size: 13px;}
     flex-direction: row;
 }
 
+
+
+
 #produtos{
     display: flex;
     flex-direction: row;
@@ -119,6 +122,7 @@ font-size: 13px;}
  
 
 
+ /* Botão p o carrinho que a Nyvea fez */ 
 #botao{
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -217,14 +221,7 @@ li{
     }}
 
 
-   /* Botão p o carrinho que a Nyvea fez */
-    /* .botao-estilo{
-        background-color: #17cc53;
-        color: aliceblue;
-        border-radius: 15px;
-        width: 120px;
-        height: 40px;
-    } */
+
 
       .quantityCart{
          /* background-color: rgb(32, 211, 32); */
@@ -241,4 +238,5 @@ li{
          margin-bottom: 10px;
 
      }
-      
+    
+    

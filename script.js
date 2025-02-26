@@ -34,6 +34,10 @@ function exibirLista() {
 
 exibirLista();
 
+
+
+
+
 // Criar a variável modalKey global
 let modalKey = 0;
 
