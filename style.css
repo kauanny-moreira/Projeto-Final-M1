@@ -1,3 +1,39 @@
+
+.sacola{
+    color: white;
+font-size: 13px;}
+    
+    
+#sacolalateral{
+    background-color: rgb(0, 90, 8);
+    color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    text-align: start;
+    padding: 7px;
+    
+    
+    
+}
+
+
+#sacolacompras{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+   
+
+}
+
+
+#allcards{
+    display: flex;
+    flex-direction: row;
+}
+
 #produtos{
     display: flex;
     flex-direction: row;
@@ -7,6 +43,11 @@
 .icon{
     width: 15px;
     height: 15px;
+    margin-left: 4px;
+  
+   background-color: rgb(143, 255, 139) ;
+   border-radius: 50%;
+
 }
 
 .divone{
@@ -24,7 +65,7 @@
     margin-top: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 
     7px 7px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 5%;
+    border-radius: 8px;
     transition: transform 0.3s ease;
     text-align: center;
    
@@ -40,6 +81,7 @@
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
+   
 
 }
 
@@ -183,3 +225,20 @@ li{
         width: 120px;
         height: 40px;
     } */
+
+      .quantityCart{
+         /* background-color: rgb(32, 211, 32); */
+         
+         color: white;
+         border-radius: 100%;
+         width: 30px;
+         height: 30px;
+         text-align: center;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-around;
+         margin-bottom: 10px;
+
+     }
+      

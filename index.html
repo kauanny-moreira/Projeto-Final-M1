@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section class="fixado">
     <div class="divone">
         <h1 class="titulo">Cardápio Digital</h1>
        </div>
@@ -15,20 +16,22 @@
        <div class="modo">
            <button id="botao">Alternar Modo 🌙/☀️</button>
        </div>
-   
+    </section>
+
+       <div id="allcards">
     <ul id="produtos"></ul>
 
 
-    <aside>
-        <div>
-          <p>Sacola <img class="icon" src="bag.png" alt="sacola"></p>
+    <aside id="sacolalateral">
+        <div id="sacolacompras">
+          <p class="sacola">CARRINHO<img class="icon" src="bag.png" alt="sacola"></p>
           <span></span>
   
         </div>
   
         <div class="cart"></div>
       </aside>
-  
+    </div>
 
    <script src="script.js"></script>
 </body>
